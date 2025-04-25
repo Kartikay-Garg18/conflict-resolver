@@ -1,0 +1,43 @@
+{
+  "name": "conflict-resolver",
+  "version": "0.1.0",
+  "description": "A tool to automatically resolve GitHub merge conflicts",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "resolver": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kartikay-Garg18/conflict-resolver.git"
+  },
+  "keywords": [
+    "Git",
+    "GitHub",
+    "Merge-Conflict",
+    "Conflict",
+    "Conflict-Resolver"
+  ],
+  "author": "Kartikay-Garg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kartikay-Garg18/conflict-resolver/issues"
+  },
+  "homepage": "https://github.com/Kartikay-Garg18/conflict-resolver#readme",
+  "dependencies": {
+    "@octokit/rest": "^21.1.1",
+    "chalk": "^5.4.1",
+    "chardet": "^2.1.0",
+    "commander": "^13.1.0",
+    "diff": "^7.0.0",
+    "inquirer": "^12.6.0",
+    "ora": "^8.2.0",
+    "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
